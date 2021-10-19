@@ -31,4 +31,5 @@
 .data
   array: .word 6, 8, 3, 4, 1, 9, 0, 3, 6, 2
   sizeArray: .word 10
+  arraySorted: .space 40 #El tamaño debe ser 4 veces la longitud del array, porque un elemento ocupa 4-byte
   text: .asciiz "La lista ordenada es: "
